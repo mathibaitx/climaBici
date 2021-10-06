@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Yanone Kaffeesatz', sans-serif;;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: initial;
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 992px){
+    header{
+        height: 100vh;
+    }
+    header > div:nth-child(2){
+        height: 100vh;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+#content{
+    display: none;
+}
+
+#menu{
+    background-color: #3396F5;
+    height: 100vh;
+}
+
+#menu > div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu > div:first-child #imgLogo{
+    width: 300px;
+    height: 300px;
+}
+
+#menu > div:first-child > div{
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#menu > div:first-child > div > form{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu > div:first-child form > select{
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+#menu > div:first-child form > input[type= "button"]{
+    margin-top: 2em;
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em;
+    background-color: #F5D422;
+    color: white;
+    width: 50%;
+    align-self: center;
+}
+
+#menu > div:first-child form > span{
+    font-size: 1.1em;
+    color: #969696;
+}
+
+#menu > div:first-child p{
+    margin-top: 4em;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+header{
+    background-size: cover;
+    border-radius: 0 0 1em 1em;
+}
+
+header > div:first-child{
+    background-color: #3396F5;
+}
+
+header > div:first-child span{
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0.3em;
+}
+
+header span i{
+    color: white;
+}
+
+header > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+header > div:nth-child(2) > div:last-of-type div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > div > div:first-child h4{
+    margin-bottom: initial;
+    margin-left: 0.5em;
+}
+
+header > div > div:first-child{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header > div > div:last-of-type > div:first-of-type p:first-of-type{
+    padding: 0 0.5em 0 0.5em;
+    background-color: red;
+    color: white;
+}
+
+header > div > div:last-of-type > div:first-of-type p:nth-of-type(3){
+    padding: 0 0.5em 0 0.5em;
+    background-color: skyblue;
+    color: white;
+}
+
+header > div > div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+
+header > div > div:nth-child(2) span{
+    font-size: 6em;
+    margin-right: 0.5em;
+    color: white;
+}
+
+header > div > div:nth-child(2) img{
+    width: 120px;
+    height: 110px;
+}
+
+header > div > div:last-of-type{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3397f56c;
+    width: 100%;
+    color: white;
+    padding: 0.5em;
+}
+
+section h3{
+    text-align: center;
+    padding: 0.5em;
+}
+
+section article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    border-bottom: 0.1em solid #969696;
+    margin-top: 1em;
+}
+
+section article:last-of-type{
+    border-bottom: none;
+    margin-bottom: 1em;
+}
+
+section article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section article div:first-of-type p:first-of-type{
+    padding: 0 0.5em 0 0.5em;
+    background-color: red;
+    color: white;
+}
+
+section article div:first-of-type p:nth-of-type(3){
+    padding: 0 0.5em 0 0.5em;
+    background-color: skyblue;
+    color: white;
+}
